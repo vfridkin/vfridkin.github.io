@@ -1,489 +1,138 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="">
-  <meta name="generator" content="Hugo 0.48" />
-
-  <title>Blackburn Theme Demo</title>
-
-  
-  
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/pure-min.css">
-
-  <!--[if lte IE 8]>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-old-ie-min.css">
-  <![endif]-->
-  <!--[if gt IE 8]><!-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/1.0.0/grids-responsive-min.css">
-  <!--<![endif]-->
-
-  <!--[if lte IE 8]>
-  <link rel="stylesheet" href="/css/side-menu-old-ie.css">
-  <![endif]-->
-  <!--[if gt IE 8]><!-->
-  <link rel="stylesheet" href="/css/side-menu.css">
-  <!--<![endif]-->
-
-  <link rel="stylesheet" href="/css/blackburn.css">
-
-  
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
-  
-  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
-
-  
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-
- 
-  
-  <link rel="alternate" type="application/rss+xml" title="Blackburn Theme Demo" href="/index.xml" />
-  
-
-  
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/androidstudio.min.css">
-  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-  
-  <script>hljs.initHighlightingOnLoad();</script>
-  
-
-  <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
-
-  
-  
-
-</head>
-
-
-<body>
-<div id="layout">
-
-  
-<a href="#menu" id="menuLink" class="menu-link">
-  
-  <span></span>
-</a>
-<div id="menu">
-
-  
-  <a class="pure-menu-heading brand" href="/">Blackburn</a>
-
-
-  <div class="pure-menu">
-    <ul class="pure-menu-list">
-      
-      
-        <li class="pure-menu-item">
-          <a class="pure-menu-link" href="/"><i class='fa fa-home fa-fw'></i>Home</a>
-      
-        </li>
-      
-      
-        <li class="pure-menu-item">
-          <a class="pure-menu-link" href="/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
-      
-        </li>
-      
-      
-        <li class="pure-menu-item">
-          <a class="pure-menu-link" href="/about/"><i class='fa fa-user fa-fw'></i>About</a>
-      
-        </li>
-      
-      
-        <li class="pure-menu-item">
-          <a class="pure-menu-link" href="/contact/"><i class='fa fa-phone fa-fw'></i>Contact</a>
-      
-        </li>
-      
-    </ul>
-  </div>
-
-  <div class="pure-menu social">
-  <ul class="pure-menu-list">
-
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="/index.xml"><i class="fa fa-rss fa-fw"></i>RSS</a>
-    </li>
-    
-
-    
-
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://twitter.com/*" target="_blank"><i class="fa fa-twitter-square fa-fw"></i>Twitter</a>
-    </li>
-    
-
-    
-
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://facebook.com/*" target="_blank"><i class="fa fa-facebook-square fa-fw"></i>Facebook</a>
-    </li>
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://instagram.com/*" target="_blank"><i class="fa fa-instagram fa-fw"></i>Instagram</a>
-    </li>
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://linkedin.com/in/*" target="_blank"><i class="fa fa-linkedin-square fa-fw"></i>LinkedIn</a>
-    </li>
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://github.com/yoshiharuyamashita" target="_blank"><i class="fa fa-github-square fa-fw"></i>GitHub</a>
-    </li>
-    
-
-    
-
-    
-
-    
-    <li class="pure-menu-item">
-      <a class="pure-menu-link" href="https://stackoverflow.com/users/*" target="_blank"><i class="fa fa-stack-overflow fa-fw"></i>Stack Overflow</a>
-    </li>
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-  </ul>
-</div>
-
-
-  <div>
-  <div class="small-print">
-    <small>&copy; 2016. All rights reserved.</small>
-  </div>
-  <div class="small-print">
-    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
-    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
-  </div>
-</div>
-
-</div>
-
-
-  <div id="main">
-
-
-<div class="header">
-  <h1>Blackburn Theme Demo</h1>
-  <h2>A Hugo Theme</h2>
-</div>
-
-<div class="content">
-  
-    <article>
-  <header>
-    <h2><a href="/post/creating-a-new-theme/">Creating a New Theme</a></h2>
-
-    <div class="post-meta">
-
-  <div>
-    <i class="fa fa-calendar fa-fw"></i>
-    <time>28 Sep 2014, 00:00</time>
-  </div>
-
-  
-
-  
-
-  
-
-</div>
-
-  </header>
-
-  <p>
-  Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&rsquo;t cover using CSS to style your theme.
-We&rsquo;ll start with creating a new site with a very basic template.
-  </p>
-
-  
-  <footer>
-    <a href="/post/creating-a-new-theme/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
-  </footer>
-  
-</article>
-
-  
-    <article>
-  <header>
-    <h2><a href="/post/migrate-from-jekyll/">Migrate to Hugo from Jekyll</a></h2>
-
-    <div class="post-meta">
-
-  <div>
-    <i class="fa fa-calendar fa-fw"></i>
-    <time>10 Mar 2014, 00:00</time>
-  </div>
-
-  
-
-  
-
-  
-
-</div>
-
-  </header>
-
-  <p>
-  Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
-▾ &lt;root&gt;/ ▾ images/ logo.png  should become
-▾ &lt;root&gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.
-  </p>
-
-  
-  <footer>
-    <a href="/post/migrate-from-jekyll/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
-  </footer>
-  
-</article>
-
-  
-    <article>
-  <header>
-    <h2><a href="/post/2015-07-23-r-rmarkdown/">Hello R Markdown</a></h2>
-
-    <div class="post-meta">
-
-  <div>
-    <i class="fa fa-calendar fa-fw"></i>
-    <time>23 Jul 2015, 21:13</time>
-  </div>
-
-  
-
-  
-
-  
-  
-  
-  <div>
-    <i class="fa fa-tags fa-fw"></i>
-    
-      <a class="post-taxonomy-tag" href="/tags/r-markdown">R Markdown</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="/tags/plot">plot</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="/tags/regression">regression</a>
-    
-  </div>
-  
-  
-
-</div>
-
-  </header>
-
-  <p>
-  R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-You can embed an R code chunk like this:
-summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.
-  </p>
-
-  
-  <footer>
-    <a href="/post/2015-07-23-r-rmarkdown/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
-  </footer>
-  
-</article>
-
-  
-    <article>
-  <header>
-    <h2><a href="/post/goisforlovers/">(Hu)go Template Primer</a></h2>
-
-    <div class="post-meta">
-
-  <div>
-    <i class="fa fa-calendar fa-fw"></i>
-    <time>02 Apr 2014, 00:00</time>
-  </div>
-
-  
-
-  
-
-  
-  
-  
-  <div>
-    <i class="fa fa-tags fa-fw"></i>
-    
-      <a class="post-taxonomy-tag" href="/tags/go">go</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="/tags/golang">golang</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="/tags/templates">templates</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="/tags/themes">themes</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="/tags/development">development</a>
-    
-  </div>
-  
-  
-
-</div>
-
-  </header>
-
-  <p>
-  Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
-This document is a brief primer on using go templates.
-  </p>
-
-  
-  <footer>
-    <a href="/post/goisforlovers/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
-  </footer>
-  
-</article>
-
-  
-    <article>
-  <header>
-    <h2><a href="/post/hugoisforlovers/">Getting Started with Hugo</a></h2>
-
-    <div class="post-meta">
-
-  <div>
-    <i class="fa fa-calendar fa-fw"></i>
-    <time>02 Apr 2014, 00:00</time>
-  </div>
-
-  
-
-  
-
-  
-  
-  
-  <div>
-    <i class="fa fa-tags fa-fw"></i>
-    
-      <a class="post-taxonomy-tag" href="/tags/go">go</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="/tags/golang">golang</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="/tags/hugo">hugo</a>&nbsp;&#47;
-    
-      <a class="post-taxonomy-tag" href="/tags/development">development</a>
-    
-  </div>
-  
-  
-
-</div>
-
-  </header>
-
-  <p>
-  Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
-Save it somewhere specific as we will be using it in the next step.
-More complete instructions are available at installing hugo
-Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
-Follow the following steps:
- Clone the hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:
-  </p>
-
-  
-  <footer>
-    <a href="/post/hugoisforlovers/">Read more<i class="fa fa-angle-double-right fa-fw"></i></a>
-  </footer>
-  
-</article>
-
-  
-
-  
-
-
-</div>
-
-</div>
-</div>
-<script src="/js/ui.js"></script>
-
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'Your Google Analytics tracking ID', 'auto');
-  ga('send', 'pageview');
-
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Trade Mark Attorney</title>
+<meta name='description' content="Yike provides trade mark services for businesses operating in Australia and China, and is uniquely experienced with years of legal practice in each country." />
+<meta name=keywords content="trade mark, translation chinese, business in China, trade marks, australia trade mark, trade mark attorney, english translation of chinese" />
+<meta name="robots" content="index, follow" />
+<style type="text/css">
+@import url("CSS/Yike.css");
+#container #social {
+	float: left;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+
+</style>
+<link rel="shortcut icon" href="http://www.yike.com.au/favicon.ico" />
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+</script>
+<script type="text/javascript">
+var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-33359418-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<!-- Place this tag after the last +1 button tag. -->
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
 </script>
 
-
-
-
-
+</head>
+<body onload="MM_preloadImages('_images/Australia_China.fw.png','_images/Yike.fw.png')">
+<div id="container">
+  <div id="header">
+    <div id="navbar_left">
+    	<ul>        	
+			<li><div class="current_page">Home</div></li>
+    		<li><a id="Trademarks_sub_caller", href="trademarks_en.html">Trade Marks</a></li>
+        	<li><a id="Business_sub_caller", href="business_en.html">Business</a></li>
+        	<li><a id="Testimonials_sub_caller", href="testimonials_en.html">Testimonials</a></li>
+        	<li><a id="Contact_sub_caller", href="contact_en.html">Contact</a></li>
+	  </ul>
+    </div>
+    <div id="navbar_right">
+    	<ul>
+    		<li><a href="index_ch.html">&nbsp;&nbsp;中文&nbsp;&nbsp;</a></li>
+		</ul>			    
+    </div>
+  </div>
+  <div id="banner">
+      <div id="banner_left">
+      </div>
+  </div>
+ <div id="billboard"></div>
+ <div id="main">
+ <div id="main_top_links">
+<ul>
+	<li><a href="trademarks_en.html#registration_in_australia">trade mark registration in Australia</a></li>
+	<li><a href="trademarks_en.html#protection_in_china">trade mark registration in China</a></li>
+</ul>
+</div>
+<div id="main_top">
+<h2 align="left">Free Consultation &nbsp;&nbsp; 0433 920 768</h2>
+<p>Yike's free initial consultation is a <strong>no obligation</strong> assessment of your business needs to help you understand your options.  Call or <a href="mailto:ma@yike.com.au">email</a> for your free initial consultation.</p>
+</div>
+ <div id="main_left">
+  	  <h2>Professional</h2>
+  	  <p>Yike is an Australian registered trade marks attorney with clients in <strong>Australia and China</strong>. </p>
+  	  <p>You can expect professional solutions tailored to <strong>your needs</strong>.</p>
+  	  <ul>
+  	    <li>Trade Marks Attorney</li>
+  	    <li>Master of Laws (Uni of Melbourne)</li
+  	    ><li>NAATI accredited translator</li>
+  	    <li>Admitted to the Chinese Bar	</li>
+  	  </ul>
+ </div>	
+	<div id="main_middle">
+      <h2>Practical</h2>
+      <p>Yike values practical solutions to your needs. There is more to a trade mark than registration.</p>
+      <p>You can expect practical advice and guidance on <strong>your options</strong>.</p>
+      <p>Get involved through guidance on which tasks you can perform yourself. Be charged only for those services provided to you.</p>
+	  <p></p>	
+	</div>
+	<div id="main_right">
+      <h2>Experienced</h2>
+      <p>Yike has years of experience working in <strong>reputable legal firms</strong> in Australia and China.</p>
+      <ul>
+        <li>Trade Mark law</li>
+        <li>Commercial law</li>
+<li>Legal translation (Chinese)</li>
+</ul>
+      <p>Besides trade mark practice, Yike helps Australian companies do <strong>business with China</strong> including legal translation.</p>
+    </div>
+<div id="document_space">    
+	<h2><a href="guidance_en.html">Articles</a></h2>
+    <div class="guidance"><b>Tips On Trade Mark Protection In Australia</b>
+	    <p>In Australia, a trade mark may be a word, name, number, logo... <br /><a href="guidance_en.html#tips_australia">read more</a> | <a href="_docs/120905_Tips_On_Trade_Mark_Protection_In_Australia.pdf">view pdf</a></p>
+    </div>
+    <div class="guidance"><b>Tips On Trade Mark Protection In China</b>
+    <p>In China, a trade mark may be words, devices, letters, numbers... <br /><a href="guidance_en.html#tips_china">read more</a> | <a href="_docs/120909_Tips_On_Trade_Mark_Protection_In_China.pdf">view pdf</a></p>
+    </div>
+    <div class="guidance"><b>Six Common Mistakes Brand Owners Make In China</b>
+    	<p>Although the Chinese government has improved its intellectual property system...<br /><a href="guidance_en.html#six_common_China">read more</a> | <a href="_docs/120916_Six_Common_Mistakes_Brand_Owners_Make_In_China.pdf">view pdf</a></p>
+    </div>
+    <div class="guidance"><b>Qantas Loses Trade Mark Battle in China</b>
+    	<p>Qantas lost two trade mark disputes in China in 2011...<br /><a href="guidance_en.html#qantas">read more</a> | <a href="_docs/120923_Qantas_Loses_TradeMark_Battle_In_China.pdf">view pdf</a></p>
+    </div>	
+    <div class="guidance"><b>Apple Successfully Opposed “iFoneline” in Australia</b>
+    	<p>Apple has successfully opposed an application for registration of “iFoneline” for...<br /><a href="guidance_en.html#ifoneline">read more</a> | <a href="_docs/121117_Apple_Successfully_Opposed_iFoneline_Australia_Trade_Mark_Eng.pdf">view pdf</a></p>
+    </div>	
+</div>  
+    <div align="center" id="main_bottom">
+    </div>
+    <div id="testimonial"><em>"I was most satisfied with Yike's ability to research and discover new evidence to strengthen my case and in her timely creation of legal documentation.  I would not hesitate to recommend her to both Chinese and Australian companies who want a professional who will work in their best interests."</em>
+      <blockquote>- Michael, Australian Company</blockquote></div>
+<!-- +1 button -->
+<div id="social"><div class="g-plusone" data-annotation="inline" data-width="300"></div></div>
+</div>
+<div id="footer">Copyright © Yike Ma 2012 | Call 0433 920 768 (from Australia) or +61 433 920 768 (outside Australia) | E-mail <a href="mailto:ma@yike.com.au">ma@yike.com.au</a></div>
+<div id="Bottom_Bar"></div>
+</div>
 </body>
 </html>
-
